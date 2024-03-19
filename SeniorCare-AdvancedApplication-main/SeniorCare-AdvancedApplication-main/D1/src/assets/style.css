@@ -1,0 +1,58 @@
+.bg-custom-background {
+    background-image: url('loginbg.jpg');
+    /* Additional background properties */
+  }
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  :root {
+    --app-container: #f3f6fd;
+    --main-color: #1f1c2e;
+    --secondary-color: #4A4A4A;
+    --link-color: #1f1c2e;
+    --link-color-hover: #c3cff4;
+    --link-color-active: #fff;
+    --link-color-active-bg: #1f1c2e;
+    --projects-section: #fff;
+    --message-box-hover: #fafcff;
+    --message-box-border: #e9ebf0;
+    --more-list-bg: #fff;
+    --more-list-bg-hover:  #f6fbff;
+    --more-list-shadow: rgba(209, 209, 209, 0.4);
+    --button-bg: #1f1c24;
+    --search-area-bg: #fff;
+    --star: #1ff1c2e;
+    --message-btn: #fff;
+  }
+  
+  .containe {
+    background-color: var(--app-container);
+  }
+  
+  .project-section {
+    background-color: var(--projects-section);
+  }
+  
+  .ta-to {
+    transform: translate(-35%, 0%);
+  }
+  
+  @media only screen and (max-width: 760px) {
+    .project-section {
+      width: 100%;
+    }
+    .rap-d {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 460px) {
+    .rap-d {
+      grid-template-columns:  1fr;
+    }
+  }
+  
